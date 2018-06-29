@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SampleApp2</string>
+    <string name="url">https://swapi.co/api/people/?page=1</string>
+</resources>

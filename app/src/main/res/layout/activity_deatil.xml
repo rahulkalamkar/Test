@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewNameHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Name :"
+        android:textColor="@color/textColorHeader"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_toEndOf="@+id/textViewNameHeader"
+        android:textColor="@color/textColorOne"
+        android:textSize="19sp" />
+
+
+    <TextView
+        android:id="@+id/textViewHeightHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textViewNameHeader"
+        android:layout_marginTop="16dp"
+        android:text="Height :"
+        android:textColor="@color/textColorHeader"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewHeightHeader"
+        android:layout_alignBottom="@+id/textViewHeightHeader"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/textViewName"
+        android:layout_toEndOf="@+id/textViewHeightHeader"
+        android:textColor="@color/textColorOne"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/textViewMassHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textViewHeightHeader"
+        android:layout_marginTop="16dp"
+        android:text="Mass :"
+        android:textColor="@color/textColorHeader"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewMass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewMassHeader"
+        android:layout_alignBottom="@+id/textViewMassHeader"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/textViewHeight"
+        android:layout_toEndOf="@+id/textViewMassHeader"
+        android:textColor="@color/textColorOne"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/textViewDateHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textViewMassHeader"
+        android:layout_marginTop="16dp"
+        android:text="Date :"
+        android:textColor="@color/textColorHeader"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewDateHeader"
+        android:layout_alignBottom="@+id/textViewDateHeader"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/textViewMass"
+        android:layout_toEndOf="@+id/textViewDateHeader"
+        android:textColor="@color/textColorDate"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/textViewTimeHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textViewDateHeader"
+        android:layout_marginTop="16dp"
+        android:text="Time :"
+        android:textColor="@color/textColorHeader"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/textViewTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewTimeHeader"
+        android:layout_alignBottom="@+id/textViewTimeHeader"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/textViewDate"
+        android:layout_toEndOf="@+id/textViewTimeHeader"
+        android:textColor="@color/textColorDate"
+        android:textSize="19sp" />
+</RelativeLayout>
